@@ -23,7 +23,10 @@ const GiveAway = () => {
         </group>
         <Float floatIntensity={10} rotationIntensity={4} >
           <Html castShadow receiveShadow occlude="blending" transform>
-            <iframe title="embed" width={700} height={500} src="https://web3d-by-peeradon.vercel.app/" frameBorder={0} />
+            {/* <iframe title="embed" width={700} height={500} src="https://web3d-by-peeradon.vercel.app/" frameBorder={0} /> */}
+            <div className="relative bg-white">
+              <img src='./preview.png' alt='' width={700} height={500} />
+            </div>
           </Html>
           <Html scale={1} rotation={[0, 0, 0]} position={[0, 8, 1]} transform occlude>
             <div className="p-4 bg-black rounded-3xl bg-opacity-60 cursor-pointer"
